@@ -1,0 +1,7 @@
+html {
+    background: url(https://msi-final-ruixinxu-resources.s3.us-east-2.amazonaws.com/brooklyn-point-1-city-point-01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
