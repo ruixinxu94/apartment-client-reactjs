@@ -10,6 +10,10 @@ import Typography from "@material-ui/core/Typography";
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import TextField from "@material-ui/core/TextField";
 import Box from '@material-ui/core/Box';
+import ResponsiveDrawer from "./ResponsiveDrawer";
+import Button from "@material-ui/core/Button";
+import {Link} from "react-router-dom";
+import ListItem from "@material-ui/core/ListItem";
 
 
 const REGISTER_USER_FORM_CONTROLS = [
@@ -94,7 +98,7 @@ class RegisterUser extends React.Component {
         this.props.registerUser(value, (res) => {
             console.log(res.data.success);
             if (res.data.success == "true") {
-                this.props.history.push('/http://localhost:3001/admin-user-info-page')
+                this.props.history.push('/admin-user-info-page')
             } else {
                 alert('Register user failed, please enter different username and id.')
             }
@@ -103,7 +107,9 @@ class RegisterUser extends React.Component {
 
 
     render() {
+
         return (
+            <React.Fragment>
             <Container component="main" maxWidth="md">
                 <CssBaseline/>
                 <Box mx="auto" bgcolor="background.paper" p={5}>
@@ -132,6 +138,9 @@ class RegisterUser extends React.Component {
                                     })
                                 }
                                 <button type="submit" className={"btn btn-success"}>Submit</button>
+                                <Button variant="contained" component={Link} to={"/admin-user-info-page"}>
+                                    Cancel
+                                </Button>
 
                             </form>
                         </div>
@@ -140,6 +149,7 @@ class RegisterUser extends React.Component {
 
 
             </Container>
+            </React.Fragment>
         )
     }
 

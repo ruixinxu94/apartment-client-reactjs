@@ -3,17 +3,25 @@ import {Link} from "react-router-dom";
 import {connect} from "react-redux";
 import {logoutUser} from "./actions/auth.action";
 import {reduxForm} from "redux-form";
+import {Redirect, withRouter} from "react-router";
 
 
 export class Header extends React.Component {
-    handleLogout = () => {
-        this.props.logoutUser((res) => {
-            if (res.data && res.data.success) {
-                this.props.history.push('/login');
-            }
-        });
+    constructor(props) {
+        super(props);
+        this.handleLogout = this.handleLogout.bind(this);
     }
-    render() {
+    handleLogout (){
+        // this.props.logoutUser((res) => {
+            // if (res.data && res.data.success) {
+            //     this.props.history.push('/login');
+            // }
+
+            localStorage.removeItem('user');
+        this.props.history.push("/login");
+
+    }
+        render() {
         return (
             <header>
                 <nav className="navbar navbar-light">
@@ -24,18 +32,10 @@ export class Header extends React.Component {
                         
                     </ul>
                 </nav>
+
             </header>
         )
     }
 }
 
-function mapStateToProps(state) {
-    return {}
-}
-
-
-export default connect(mapStateToProps, {logoutUser})(
-    reduxForm({
-        form: 'LogoutForm'
-    })(Header)
-);
+export default withRouter(Header);

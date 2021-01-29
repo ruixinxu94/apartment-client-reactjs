@@ -11,7 +11,7 @@ export default function (ExistingComponent) {
         }
 
         static getDerivedStateFromProps(props, state) {
-            if (props.loggedIn) {
+            if (localStorage.getItem("isLoggedIn")) {
                 return state;
             } else {
                 console.log("fk");

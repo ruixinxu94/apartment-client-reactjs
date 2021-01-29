@@ -10,6 +10,9 @@ import Typography from "@material-ui/core/Typography";
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import TextField from "@material-ui/core/TextField";
 import Box from '@material-ui/core/Box';
+import ResponsiveDrawer from "./ResponsiveDrawer";
+import Button from "@material-ui/core/Button";
+import {Link} from "react-router-dom";
 
 
 const EDIT_USER_FORM_CONTROLS = [
@@ -17,10 +20,10 @@ const EDIT_USER_FORM_CONTROLS = [
     {label: 'userName', type: 'text', field: 'username'},
     {label: 'firstName', type: 'text', field: 'firstname'},
     {label: 'LastName', type: 'text', field: 'lastname'},
-    {label: 'Email', type: 'text', field: 'email'},
     {label: 'Birthday', type: 'date', field: 'birthday'},
-    {label: 'Job', type: 'text', field: 'job'},
-    {label: 'Room', type: 'txt', field: 'room'}
+    {label: 'Room', type: 'txt', field: 'room'},
+    {label: 'Lease Start Date', type: 'txt', field: 'leasestart'},
+    {label: 'Lease End Date', type: 'txt', field: 'leaseend'}
 
 ];
 
@@ -103,8 +106,11 @@ class EditUser extends React.Component {
 
     render() {
         return (
+            <React.Fragment>
+                <ResponsiveDrawer/>
             <Container component="main" maxWidth="md">
                 <CssBaseline/>
+
                 <Box mx="auto" bgcolor="background.paper" p={5}>
                     <div className={useStyles.paper}>
                         <p></p>
@@ -122,7 +128,9 @@ class EditUser extends React.Component {
                                 <p>
                                     <button type="submit" className="btn btn-primary">Edit</button>
                                 </p>
+
                             </form>
+                            <Button variant="contained" component={Link} to={"/admin-user-info-page"}>Cancel </Button>
 
                         </div>
                     </div>
@@ -130,6 +138,7 @@ class EditUser extends React.Component {
 
 
             </Container>
+            </React.Fragment>
         )
     }
 

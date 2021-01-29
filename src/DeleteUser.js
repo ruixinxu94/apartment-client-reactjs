@@ -6,6 +6,8 @@ import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import {connect} from "react-redux";
 import {deleteUser} from "./actions/users.action";
+import {Link} from "react-router-dom";
+import Button from "@material-ui/core/Button";
 
 
 const DELETE_USER_FORM_CONTROLS = [
@@ -13,9 +15,10 @@ const DELETE_USER_FORM_CONTROLS = [
     {label: 'userName', type: 'text', field: 'username'},
     {label: 'firstName', type: 'text', field: 'firstname'},
     {label: 'LastName', type: 'text', field: 'lastname'},
-    {label: 'Email', type: 'text', field: 'email'},
     {label: 'Birthday', type: 'date', field: 'birthday'},
-    {label: 'Room', type: 'txt', field: 'room'}
+    {label: 'Room', type: 'txt', field: 'room'},
+    {label: 'Lease Start Date', type: 'txt', field: 'leasestart'},
+    {label: 'Lease End Date', type: 'txt', field: 'leaseend'}
 ]
 
 class DeleteUser extends React.Component {
@@ -93,6 +96,10 @@ class DeleteUser extends React.Component {
                                     <button type="submit" className="btn btn-danger">Delete</button>
                                 </p>
                             </form>
+
+                            <Button variant="contained" component={Link} to={"/admin-user-info-page"}>
+                                Cancel
+                            </Button>
 
                         </div>
                     </div>

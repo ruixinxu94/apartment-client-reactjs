@@ -1,8 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="033198d9-1316-4233-82ce-2e51cc17730d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="033198d9-1316-4233-82ce-2e51cc17730d" name="Default Changelist" comment="10">
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddressForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminMaintenance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminReminders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminSignIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllTypesRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookPractice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CenterTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Checkin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DelayingAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteReminder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EditReminder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForgetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeasePaymentHistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MoveOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewUserSignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneBOneB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PayLease.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reminder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reminders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationPartyRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationPartyRooms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ResetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ResponsiveDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RoomSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudioRooms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestCalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoBTwoB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserMaintenance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserMaintenanceHistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/maintenance.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/payLease.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/reminder.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/reservationPartyRoom.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/rooms.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maintenance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/marginpadding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/maintenance.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/payLease.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reminder.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reservation.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/room.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeleteUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserMainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserMainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/auth.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/auth.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/users.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/users.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth.hoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth.hoc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loginBackGround.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/loginBackGround.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/auth.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/auth.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/root.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/root.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/users.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/users.reducer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +87,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Sfz92OXSOZsM01ccK7LQGDZogY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Training_Misc/msi-projects/FrontEnd/reactdemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -30,27 +110,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/node_modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/reducers" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -67,10 +139,72 @@
       <workItem from="1572208151297" duration="46221000" />
       <workItem from="1572403034718" duration="214000" />
       <workItem from="1572403400396" duration="104769000" />
+      <workItem from="1572678615530" duration="17241000" />
+      <workItem from="1572752679498" duration="57397000" />
+      <workItem from="1572986953968" duration="477000" />
+      <workItem from="1572987812181" duration="4819000" />
+      <workItem from="1573006622457" duration="30000" />
+      <workItem from="1573006656853" duration="10000" />
+      <workItem from="1573006756509" duration="54000" />
+      <workItem from="1573006816121" duration="95000" />
+      <workItem from="1573007194768" duration="9847000" />
+      <workItem from="1573074795875" duration="61607000" />
+      <workItem from="1573330359409" duration="14506000" />
+      <workItem from="1573405328179" duration="22570000" />
+      <workItem from="1573525538523" duration="22962000" />
+      <workItem from="1573611617750" duration="49613000" />
+      <workItem from="1573868073946" duration="122000" />
+      <workItem from="1573873105884" duration="5091000" />
+      <workItem from="1573878612793" duration="12353000" />
+      <workItem from="1573919279631" duration="174000" />
+      <workItem from="1573920007714" duration="70034000" />
+      <workItem from="1574869953411" duration="522000" />
+      <workItem from="1576769351494" duration="494000" />
+      <workItem from="1577653472291" duration="8992000" />
+      <workItem from="1577709462749" duration="2408000" />
+      <workItem from="1579726652412" duration="533000" />
+      <workItem from="1580499849537" duration="841000" />
+      <workItem from="1581451531271" duration="38000" />
+      <workItem from="1581451594229" duration="445000" />
+      <workItem from="1581453119995" duration="1003000" />
+      <workItem from="1581609820058" duration="481000" />
+      <workItem from="1588010518009" duration="4988000" />
+      <workItem from="1588090882999" duration="1406000" />
+      <workItem from="1588094343119" duration="11609000" />
+      <workItem from="1588347099739" duration="1076000" />
+      <workItem from="1588625662727" duration="716000" />
+      <workItem from="1588694935694" duration="598000" />
+      <workItem from="1588724929879" duration="15000" />
+      <workItem from="1588724974199" duration="196000" />
+      <workItem from="1588737810032" duration="550000" />
+      <workItem from="1601831933371" duration="538000" />
+      <workItem from="1602730021501" duration="3793000" />
+      <workItem from="1602819687633" duration="2795000" />
+      <workItem from="1611196380185" duration="98000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="541" y="280" width="597" height="540" key="find.popup" timestamp="1602860625247">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="279" width="597" height="490" key="find.popup/-152.-1055.1920.1055/0.25.1680.953@0.25.1680.953" timestamp="1602731540482" />
+    <state x="541" y="280" width="597" height="490" key="find.popup/-152.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602730220371" />
+    <state x="541" y="280" width="597" height="540" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602860625247" />
   </component>
 </project>

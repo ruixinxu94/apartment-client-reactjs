@@ -8,6 +8,8 @@ import IconButton from "@material-ui/core/IconButton";
 import DeleteIcon from '@material-ui/icons/Delete';
 import Fab from '@material-ui/core/Fab';
 import EditIcon from '@material-ui/icons/Edit';
+import {dark} from "@material-ui/core/styles/createPalette";
+
 
 
 const myStyles = theme => ({
@@ -28,10 +30,6 @@ const myStyles = theme => ({
 
 
 class Users extends React.Component {
-    constructor(props) {
-        super(props)
-        this.clickToDeletePage = this.clickToDeletePage.bind(this);
-    }
 
     componentDidMount() {
         this.props.loadUsers();
@@ -51,18 +49,17 @@ class Users extends React.Component {
 
                 <h2>Users</h2>
                 <ul>
-                    <Table>
-                        <thead className="thead-dark">
+                    <Table responsive>
+                        <thead className={dark}>
                         <th></th>
                         <th>Id</th>
-                        <th>Username</th>
+                        <th>Username(Email)</th>
                         <th>Firstname</th>
                         <th>LastName</th>
                         <th>Room</th>
                         <th>Birthday</th>
-                        <th>Email</th>
-                        <th>Job</th>
-                        <th>Salary</th>
+                        <th>lease Start date</th>
+                        <th>lease end date</th>
                         </thead>
 
                         <tbody>
@@ -100,13 +97,10 @@ class Users extends React.Component {
                                             <User user={user.birthday}/>
                                         </td>
                                         <td>
-                                            <User user={user.email}/>
+                                            <User user={user.leasestart}/>
                                         </td>
                                         <td>
-                                            <User user={user.job}/>
-                                        </td>
-                                        <td>
-                                            <User user={user.salary}/>
+                                            <User user={user.leaseend}/>
                                         </td>
 
                                     </tr>

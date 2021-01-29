@@ -1,19 +1,34 @@
 
 import React, {Component} from 'react';
 import Header from "./Header";
+import {connect} from "react-redux";
+import UserMaintenance from "./UserMaintenance";
+import Typography from "@material-ui/core/Typography";
+import Grid from "@material-ui/core/Grid";
+import MiniDrawer from "./MiniDrawer";
+import CenterTabs from "./CenterTabs";
 
 
-class UserMainPage extends Component{
+export default class UserMainPage extends Component{
     render () {
         return (
             <React.Fragment>
-                <Header />
+                <MiniDrawer/>
+                <CenterTabs/>
+
             </React.Fragment>
 
         )
     }
 }
-export default UserMainPage;
 
 
+// function mapStateToProps(state){
+//
+//     console.log(state);
+//     return{
+//         users: state.loggedIn
+//     }
+// }
 
+// export default connect(mapStateToProps)(UserMainPage);

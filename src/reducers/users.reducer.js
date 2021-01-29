@@ -10,6 +10,7 @@ export function usersReducer(oldState = [], action) {
             }
         case EDIT_USER:
             const editUser = action.payload;
+
             const index = oldState.findIndex(b => b.id == editUser.id);
             if (index !== -1) {
                 oldState.splice(index, 1, editUser);
